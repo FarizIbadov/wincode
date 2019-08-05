@@ -1,0 +1,113 @@
+.container-fluid{
+    padding: 0;
+    
+}
+
+#header{
+    background:#F1B603;
+    margin:0;
+    
+}
+
+
+
+#header  #logo{
+    width:100%;
+    height: 150px;
+
+}
+
+#header #first{
+    padding:0;
+    margin: 0;
+}
+
+#body{
+    background: url(./../image/lamborghini.webp);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+
+}
+
+#body #opacity{
+    position: relative;
+    width:100%;
+    background: rgba(0,0,0,0.5);
+    height:700px;
+    
+}
+
+.search{
+    position: relative;
+    left:33%;
+    top:140px;
+
+}
+
+.search h1{
+    color:white; 
+    font-size: 5em;
+    margin-bottom:20px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    
+
+}
+
+.search #search_bar{
+    width:500px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 25px;
+    opacity: 0.7;
+    position: relative;
+    margin: 0;
+    padding-left:20px; 
+    
+}
+
+.search #search_bar:hover{
+    opacity: 1;
+}
+
+.search #search_bar:focus{
+    outline: none;
+    opacity: 1;
+    border:2px solid #F1B603;
+    box-shadow: 1px 1px  rgba(241, 181, 3, 0.52);
+    
+}
+
+.search button {
+    border:1px solid #F1B603;
+    padding: 1;
+    border-radius: 200px;
+    width:60px;
+    height: 60px;
+    color:#F1B603;
+    font-size: 1.5em;
+    outline: none;
+    background: none;
+    margin-bottom:12px;
+    
+}
+
+.search button:hover{
+
+background: #F1B603;   
+color:black;
+
+
+}
+
+
+
+
+
+
+
+
+
+
